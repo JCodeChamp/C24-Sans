@@ -6,7 +6,7 @@ class Cannon{
         this.height = height;
         this.angle = angle;
         this.cannonBaseImg = loadImage("../assets/cannon_base.png");
-        this.cannonImg = loadImage("../assets/CANON.png");
+        this.cannonImg = loadImage("../assets/CANNON.png");
     }
     display(){
        if(keyIsDown(RIGHT_ARROW) && this.angle < 0.63){
